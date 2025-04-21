@@ -1,0 +1,331 @@
+.section1{
+	    background-image: url(../Image/bg.png);
+    height: 745px;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: -50px;
+}
+.nav-item ul li{
+	float: left;
+    margin-right: 70px;
+    list-style: none;
+}
+.nav-item{
+	float: inline-end;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-item ul li a {
+  text-decoration: none;      /* removes underline */
+  color: black;               /* changes link color to black */
+  font-weight: 800;           /* makes it a bit bold */
+  transition: 0.3s;           /* smooth hover effect */
+}
+
+.nav-item ul li a:hover {
+  color: brown;               /* hover color */
+  text-decoration: underline; /* optional: underline on hover */
+}
+
+.logo-name{
+	    font-size: xx-large;
+    font-weight: 800;
+}
+.col-2 img{
+	     height: 31px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ .login-box {
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+
+  background-color: rgba(255, 255, 255, 0.15); /* semi-transparent white */
+  backdrop-filter: blur(10px);                /* blur behind the form */
+  -webkit-backdrop-filter: blur(10px);        /* Safari support */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);     /* dark shadow */
+  border: 1px solid rgba(255, 255, 255, 0.2);  /* optional light border */
+  color: black;
+}
+
+    .login-box h2 {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .btn-primary {
+      width: 100%;
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #007bff;
+    }
+
+    #section-text{
+    	    margin-top: 129px;
+    color: brown;
+    font-size: 60px;
+    font-weight: 800;
+    }
+    #content{
+    	font-size: 42px;
+    font-weight: bolder;
+    }
+
+/*Registration form*/
+#createAcc {
+    padding: 37px;
+    border: solid;
+    background-color: transparent;
+    height: 576px;
+    margin-top: 48px;
+    border-width: thick;
+    border-radius: 61px;
+    width: 578px;
+    
+    /* New addition */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* background shadow */
+    background-color: rgba(255, 255, 255, 0.1); /* optional: soft white background */
+    backdrop-filter: blur(10px); /* optional: glassy effect */
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+}
+ .btn-register {
+      width: 100%;
+      background-color: #ffffff;
+      color: #003366;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-register:hover {
+      background-color: #f0f0f0;
+      color: #007bff;
+    }
+
+/*About Us*/
+.about-section {
+  background: linear-gradient(to right, #dbeafe, #bfdbfe); /* light blue gradient */
+  color: #111;
+  padding: 60px 30px;
+  border-radius: 30px;
+  margin: 111px auto;
+  max-width: 1000px;
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #1e3a8a; /* dark blue text */
+}
+
+.about-section h4 {
+  font-size: 22px;
+  color: #1e40af;
+  margin-top: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.about-section ul li {
+  margin-bottom: 10px;
+}
+
+
+/*footer*/
+.footer {
+  background: linear-gradient(to right, #56CCF2, #4a4b4c); /* light blue to deep blue */
+  color: white;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer .text-center {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #292424;
+}
+
+/*contact*/
+.contact-section {
+  background: #f0f8ff; /* light blue background */
+  padding: 25px 64px;
+  border-radius: 30px;
+  margin: 50px auto;
+  max-width: 900px;
+  color: #111;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1e3a8a;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contact-section .subtext {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-form .btn {
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* ======== SMALL DEVICES (max-width: 768px) ======== */
+@media only screen and (max-width: 768px) {
+
+  .nav-item ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .nav-item ul li {
+    margin: 10px 0;
+    float: none;
+  }
+
+  .logo-name {
+    font-size: large;
+    text-align: center;
+  }
+
+  .col-4, .col-6, .col-2 {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  #section-text {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+
+  #content {
+    font-size: 28px;
+  }
+
+  .login-box {
+    margin: 30px auto;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .about-section,
+  .contact-section {
+    padding: 30px 15px;
+    margin: 20px 10px;
+  }
+
+  .about-section h2,
+  .contact-section h2 {
+    font-size: 28px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* ======== EXTRA SMALL (max-width: 480px) ======== */
+@media only screen and (max-width: 480px) {
+  .logo-name {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+}
