@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Online Banking</title>
+  <!-- Css link -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- Bootstrap css link -->
+  <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+  <style>
+
+  </style>
+</head>
+<body>
+<div class="section1">
+    <!-- Hamburger icon for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <img src="./Image/logo1.png"alt="" style="height: 48px; float:left;">
+                  <h1 class="logo-name">Online Banking System</h1>
+        </div>
+        <div class="col-6">         <!-- Nav items -->
+            <div class="nav-item">    
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+              <li><a href="registration.html">Register</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-2">
+          <img src="./Image/google-plus.png">
+          <img src="./Image/twitter.png">
+          <img src="./image/facebook.png">
+        </div>
+      </div>
+</div>
+<div class="container "id="createAcc" >
+ <div class="register-box">
+    <h2 class="text-center mb-4">Create Your Account</h2>
+    <form action="register_process.jsp" method="post">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <input type="text" name="fullname" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="date" name="dob" class="form-control" placeholder="Date of Birth" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <select name="gender" class="form-control" required>
+            <option value="">Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="tel" name="mobile" class="form-control" placeholder="Mobile Number" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="text" name="aadhaar" class="form-control" placeholder="Aadhaar Number (Optional)">
+        </div>
+        <div class="col-md-12 mb-3">
+          <input type="text" name="address" class="form-control" placeholder="Residential Address" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <input type="text" name="city" class="form-control" placeholder="City" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <input type="text" name="state" class="form-control" placeholder="State" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <input type="text" name="pincode" class="form-control" placeholder="Pincode" required>
+        </div>
+        <div class="col-md-12 mb-3">
+          <input type="text" name="username" class="form-control" placeholder="Create Username" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="password" name="password" class="form-control" placeholder="Password" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="password" name="confirmpass" class="form-control" placeholder="Confirm Password" required>
+        </div>
+        <div class="col-md-12 mb-3 form-check text-white">
+          <input type="checkbox" class="form-check-input" id="terms" required>
+          <label class="form-check-label" for="terms">I agree to the Terms & Conditions</label>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-register">Register</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+ <!-- footer -->
+  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <h5>Online Banking System</h5>
+        <p>Secure & Smart Banking Solutions.</p>
+      </div>
+      <div class="col-4">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="registration.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h5>Contact Us</h5>
+        <p>Email: support@onlinebank.com</p>
+        <p>Phone: +91-9876543210</p>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">&copy; 2025 Online Banking System. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
